@@ -1,9 +1,10 @@
 :root {
-  --dark: #292929;
+  --dark: #121212;
   --dark-secondary: #333333;
-  --yellow: #FDC12D;
-  --white: #FFFFFF;
-  --green: #01A386;
+  --yellow: #fdc12d;
+  --white: #ffffff;
+  --green: #01a386;
+  --header: #1f1f1f;
 }
 
 html,
@@ -22,4 +23,13 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+p a {
+  color: blue;
 }

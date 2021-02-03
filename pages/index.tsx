@@ -1,20 +1,30 @@
+import ExampleElements from "../components/ExampleElements";
+
 const Landing = () => {
   return (
-    <div>
+    <ExampleElements>
       <section className="section--intro flex-col">
-        <h1>Verlay002</h1>
-        <p>Follow the signs</p>
+        <div className="wrap">
+          <h1>Verlay002</h1>
+          <p>Follow the signs</p>
+        </div>
       </section>
 
-      <section>
-        <p>Listen to your gut</p>
+      <section className="section--paragraph flex-col">
+        <div className="wrap">
+          <p>Listen to your gut</p>
+        </div>
       </section>
 
       <section className="section--third">
-        <h3>Why the hell not</h3>
+        <div className="wrap">
+          <div className="flex-col">
+            <p>Why the hell not</p>
+          </div>
+        </div>
       </section>
-    </div>
-  )
-}
+    </ExampleElements>
+  );
+};
 
 export default Landing;

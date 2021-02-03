@@ -15,6 +15,16 @@ section {
   color: var(--white);
 }
 
+.section--headers {
+  background-color: #6974c6;
+  color: black;
+}
+
+.section--paragraph {
+  background-color: black;
+  color: white;
+}
+
 .section--third {
   background: var(--green);
 }
